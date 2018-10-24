@@ -72,7 +72,11 @@ Read The coolculator class and tests.
 
 **What methods does the Cooclulator currently implement?**
 
+The coolculators function at the moment is to add up the two intergers that have been inputted (2 & 3), which should equal a sum of 5. 
+
 **Describe how the existing test works**
+
+^ see above ^
 
 **Change a value in the `add()` test so it fails.**
 Once you've seen it fail, revert your change so it's green again.
@@ -84,9 +88,15 @@ Now let's do some TDD! Uncomment the `multiply()` test.
 
 **What do you expect to happen when you run your tests?**
 
+I expect the test to pass as 2 multiplied by 3 does equal 6?
+
 **What actually happened when you ran your tests?**
 
+The test says this has faileds mulitply isn't a valid function, so the test cannot be proven. 
+
 **Add a method to the Coolculator so the test passes green**
+
+Opened up the additional coolcalculator javascript and added some more bits to the coolcalculator class to make sure the tests run correctly. Did the same for subtract, see below ---v
 
 **Uncomment the `subtract()` test and write some code to make it green**
 Remember the process: Red / Green / Refactor - is there any refactoring you could do to clean up your code?
