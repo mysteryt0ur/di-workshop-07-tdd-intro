@@ -51,8 +51,16 @@ Look in [`array.test.js`](test/array.test.js). This contains some tests for Java
 
 **What do the existing tests actually test (explain in english)?**
 
+The first test is testing the "push" funcition. What the test is trying to describe is that the array of [1, 2, 3, 4] should have a an additional "5" added to the end of the array should the function be successful, leaving us with a final array of [1, 2, 3,4, 5]
+
+The second test shows that similarly to the first one, that the number "1" should be added to the already existing array of 4 1's if the function is successful. It also mentions that if the function is successful, there should be 5 total integers within the array. 
+
 **Add a test for the `pop()` method.**
 Hint: You'll need _two_ assertions to fully test that it `pop()` works. Explain why you chose these assersions here.
+
+I have chosen to make two tests similar to the two push function tests shown above. For the first test, I have used a test array of [1, 2, 3, 4, 5] where I have shown that once 5 is popped, the final array should only be [1, 2, 3, 4]
+
+The second test shows an array of [1, 1, 1, 1, 1] - and I have written to show that after the pop function works and removes a '1', the final array should be [1, 1, 1, 1]
 
 > 💡 **REMINDER**: Do you need to commit your answers to the questions above?
 
